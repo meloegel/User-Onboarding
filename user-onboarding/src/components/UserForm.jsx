@@ -15,7 +15,7 @@ export default function UserForm(props) {
       <div id="addUser">
           <div id='foo'>
         <h2>Add a User</h2>
-        <button disabled={disabled}>Submit</button>
+        <button disabled={disabled} className='submit'>Submit</button>
         </div>
         <div className="errors">
           <div>{errors.fName}</div>
